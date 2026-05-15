@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body{
+        background-color:#FFFFF9;
+        color:#2B2B2B;
+        font-family:Verdana;
+        margin:0;
+      }
+
+      .p2{
+        text-align:center;
+        font-size:70px;
+        margin:0;
+      }
+      
+      h1{
+        text-align:center;
+        font-family:Times New Roman;
+        font-size:90px;
+        color:#111111;
+        margin:10px 0;
+      }
+      
+      h3{
+        font-family:Courier New;
+        text-align:center;
+        margin:10px 0;
+      }
+      
+      #intro{
+        text-align:center;
+        margin:20px 0;
+      }
+
+      .linea1{
+        display:flex;
+        justify-content:space-between;
+        align-items:flex-start;
+      }
+      
+      .producto{
+        display:flex;
+        gap:40px;
+        align-items:flex-start;
+        margin:50px 0px ;
+        margin-left:60px;
+      }
+      
+      .img, .img3{
+        width:250px;
+        height:350px;
+        margin-right:px;
+      }
+
+      .info{
+        font-size:20px;
+        margin:0;
+        max-width:550px;
+      }
+      .info1{
+        font-size:20px;
+        margin:0;
+        max-width:550px;
+        min-height:120px;
+      }
+      .precio{
+        margin-top:-10px;
+        font-size:25px;
+      }
+      
+      .botones button{
+        border-radius:100px;
+        font-size:21px;
+        width:25px;
+        background-color:#AAAAAA;
+        border:none;
+        cursor:pointer;
+        margin-top: 25px; 
+      }
+      
+      .boton1, .boton5{
+        margin-left:-320px;
+        margin-right:255px;
+      }
+      
+      .botones button:hover{
+        background-color:grey;
+      }
+      
+      .colores{
+        display:flex;
+        gap:20px;
+        margin-top:20px;
+        align-items:center;
+      }
+      
+      .color{
+        width:80px;
+        height:80px;
+        border-radius:50%;
+        border:1px solid black;
+        cursor:pointer;
+      }
+      
+      .naranja{
+        background-color:#F87D38;
+      }
+
+      .azul{
+        background-color:#414558;
+      }
+
+      .gris{
+        background-color:#AAAAAA;
+      }
+
+       .producto2{
+        display:flex;
+        gap:25px;
+        align-items:flex-start;
+        margin:50px 0px;
+      }
+      
+      .img2{
+        width:450px;
+        height:250px;
+        margin:auto;
+      }
+
+      .info2{
+        font-size:20px;
+        margin:0;
+        max-width:504px;
+        margin-right:45px;
+        min-height:120px;
+      }
+      
+      .info3{
+        font-size:20px;
+        margin:0;
+        max-width:504px;
+        margin-right:45px;
+      }
+      
+      .precio2{
+        margin-top:-10px;
+        font-size:25px;
+      }
+      
+      .botones2 button{
+        border-radius:100px;
+        font-size:21px;
+        width:25px;
+        background-color:#AAAAAA;
+        border:none;
+        cursor:pointer;
+        margin-top:20px
+      }
+      
+      .boton2{
+        margin-left:-468px;
+        margin-right:380px;
+      }
+      
+      .botones2 button:hover{
+        background-color:grey;
+      }
+      
+      .blanco2{
+        background-color:#F0E5D3;
+      }
+
+      .azul2{
+        background-color:#C8D9E0;
+      }
+
+      .plata2{
+        background-color:#E3E4E6;
+      }
+
+      .negro{
+        background-color:#000;
+      }
+
+      .blanco{
+        background-color:#fff;
+      }
+
+      .rojo{
+        background-color:red;
+      }
+
+      .azul3{
+        background-color:blue;
+      }
+      
+      .img4{
+        width:250px;
+        height:350px;
+        object-fit:cover;
+      }
+      .final{
+        background-color:#DDDDDD;
+        padding:189px;
+        margin-top:80px;
+      }
+      .textofinal{
+        position:absolute;
+        top:76%;
+        left:50%;
+        transform:translateX(-50%);
+        font-size:50px;
+      }
+      .textofinal2{
+        width:1200px;
+        position:absolute;
+        top:87%;
+        left:50%;
+        transform:translateX(-50%);
+        font-size:30px;
+      }
+      .textofinal3{
+        position:absolute;
+        bottom:0px;
+        right:40px;
+        font-size:30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Amazon</h1>
+    <h3>Tu tienda online de confianza</h3>
+    <p id="intro"><em>Bienvenido a la tienda online top 1º del mundo aqui encuetraras todo lo que necesites al mejor precio.</em></p>
+    <p class=p2>TECNOLOGIA</p>
+    <div class="linea1">
+      
+      <div class="producto">
+        
+        <img class="img" src="https://m.media-amazon.com/images/I/71YBR7rf6sL._AC_SX522_.jpg">
+        
+        <div>
+          <p class="info1">
+          Apple iPhone 17 Pro MAX de 256 GB: Pantalla de 6,9 Pulgadas con Promotion, Chip A19 Pro, la Mayor autonomía en un iPhone, Sistema de cámaras Pro Fusion, cámara Frontal Center Stage; Naranja cósmico
+          </p>
+  
+          <div class="botones">
+            <button class="boton1">‹</button>
+            <button class="boton3">›</button>
+          </div>
+          
+          <h2 class="precio">1.429,00€</h2>
+          <h3 style="text-align:left; margin-top:10px;">En 3 colores</h3>
+          
+          <div class="colores">
+            <div class="color naranja"></div>
+            <div class="color azul"></div>
+            <div class="color gris"></div>
+          </div>
+          
+        </div>
+        
+      </div>
+  
+      <div class="producto2">
+
+        <img class="img2" src="https://i.ibb.co/hFt4M9cw/71b-Ehe5l-KQL-AC-SL1500-removebg-preview.png">
+          
+        <div>
+          
+          <p class="info2"> Apple MacBook Air de 15,3 Pulgadas con Chip M5: Pantalla Liquid Retina, CPU de 10 núcleos, GPU de 10 núcleos, 16 GB de Memoria unificada, 1 TB de SSD, Wi-Fi 7,Teclado español; Blanco Estrella </p>
+  
+          <div class="botones2">
+            <button class="boton2">‹</button>
+            <button class="boton4">›</button>
+          </div>
+          
+          <h2 class="precio2">1.749,00€</h2>
+          <h3 style="text-align:left; margin-top:10px;">En 3 colores</h3>
+          
+          <div class="colores">
+            <div class="color blanco2"></div>
+            <div class="color azul2"></div>
+            <div class="color plata2"></div>
+          </div>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+
+    <p class=p2>ROPA</p>
+    <div class="linea1">
+      
+      <div class="producto">
+
+          <img class="img3" src="https://m.media-amazon.com/images/I/51TLvCPumbL._AC_SX679_.jpg">
+        
+           
+           
+        <div>
+          <p class="info" style="margin-top:25px;">
+          NIKE Herren M Nk DF Park VII JSY SS Jersey
+          </p>
+          
+          <div class="botones" style="margin-top:35px;">
+            <button class="boton5">‹</button>
+            <button class="boton6">›</button>
+          </div>
+          
+          <h2 style="margin-bottom:0px;" >18,99€</h2>
+          
+          <h3 style="text-align:left; margin-top:10px;">En 3 colores</h3>
+          
+          <div class="colores">
+            <div class="color negro"></div>
+            <div class="color blanco"></div>
+            <div class="color rojo"></div>
+          </div>
+          
+        </div>
+        
+      </div>
+  
+      <div class="producto2">
+        
+        <img class="img4" src="https://m.media-amazon.com/images/I/71qxF1d4CGL._AC_SX569_.jpg">
+        
+        <div>
+          <p class="info3" style="margin-top:25px;">
+          NIKE K NSW Club FLC Jggr Lbr - Pants Unisex Adulto
+          </p>
+  
+          <div class="botones" style="margin-top:20px;">
+            <button class="boton7" style="margin-left:-305px;
+        margin-right:255px;">‹</button>
+            <button class="boton8">›</button>
+          </div>
+          
+          <h2 class="precio2" style="margin-bottom:0px; margin-top:20px;">38,40€</h2>
+          <h3 style="text-align:left; margin-top:10px;">En 3 colores</h3>
+          
+          <div class="colores">
+            <div class="color negro"></div>
+            <div class="color blanco"></div>
+            <div class="color azul3"></div>
+          </div>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+    <div class=final>
+      <p class=textofinal>Wep oficial </p>
+      <p class=textofinal2>Wep de venta de todo timo de articulos de la mallor calidad y al mejor precio</p>
+      <p class=textofinal3>by:crac</p>
+    </div>
+    <script>
+      let boton = document.querySelector(".boton1");
+      let boton1 = document.querySelector(".boton3");
+
+      let img = document.querySelector(".img");
+      let texto=document.querySelector(".info1");
+      
+      let fotos = [
+        "https://m.media-amazon.com/images/I/71YBR7rf6sL._AC_SX522_.jpg",
+
+        "https://m.media-amazon.com/images/I/619Pp4ERPNL._AC_SX522_.jpg",
+        
+        "https://m.media-amazon.com/images/I/71ddhabs2mL._AC_SX522_.jpg"
+
+      ];
+
+      let numerofotos = 0;
+      
+      let textos=[
+        "Apple iPhone 17 Pro MAX de 256 GB: Pantalla de 6,9 Pulgadas con Promotion, Chip A19 Pro, la Mayor autonomía en un iPhone, Sistema de cámaras Pro Fusion, cámara Frontal Center Stage; Naranja cósmico",
+
+        "Apple iPhone 17 Pro MAX de 256 GB: Pantalla de 6,9 Pulgadas con Promotion, Chip A19 Pro, la Mayor autonomía en un iPhone, Sistema de cámaras Pro Fusion, cámara Frontal Center Stage; Plata",
+
+        "Apple iPhone 17 Pro MAX de 256 GB: Pantalla de 6,9 Pulgadas con Promotion, Chip A19 Pro, autonomía revolucionaria, Sistema de cámaras Pro Fusion con cámara Frontal Center Stage; Azul Intenso"
+      ]
+
+      let numerotextos = 0;
+      
+      boton.addEventListener("click", function() {
+
+        numerofotos++;
+
+        if (numerofotos >= fotos.length) {
+          numerofotos = 0;
+        }
+
+        img.src = fotos[numerofotos];
+
+        let numerotextos=numerofotos
+        
+        texto.innerText = textos[numerotextos];
+        
+      });
+
+      boton1.addEventListener("click", function() {
+
+        numerofotos--;
+
+          if (numerofotos < 0) {
+            
+            numerofotos = fotos.length - 1;
+            
+          }
+
+        img.src = fotos[numerofotos];
+
+        let numerotextos=numerofotos
+        
+        texto.innerText = textos[numerotextos];
+
+      });
+      
+      let boton2 = document.querySelector(".boton2");
+      let boton4 = document.querySelector(".boton4");
+
+      let img2 = document.querySelector(".img2");
+      let texto2=document.querySelector(".info2");
+      
+      let fotos2 = [
+        "https://i.ibb.co/hFt4M9cw/71b-Ehe5l-KQL-AC-SL1500-removebg-preview.png",
+
+        "https://m.media-amazon.com/images/I/71JrRTpm6PL._AC_SX522_.jpg",
+
+        "https://m.media-amazon.com/images/I/7128fVMxWmL._AC_SX522_.jpg"
+      ];
+
+      let numerofotos2 = 0;
+
+      let textos2=[
+        "Apple MacBook Air de 15,3 Pulgadas con Chip M5: Pantalla Liquid Retina, CPU de 10 núcleos, GPU de 10 núcleos, 16 GB de Memoria unificada, 1 TB de SSD, Wi-Fi 7,Teclado español; Blanco Estrella",
+
+        "Apple MacBook Air de 15,3 Pulgadas con Chip M5: Pantalla Liquid Retina, CPU de 10 núcleos, GPU de 10 núcleos, 16 GB de Memoria unificada, 1 TB de SSD, Wi-Fi 7,Teclado español; Plata",
+
+        "Apple MacBook Air de 15,3 Pulgadas con Chip M5: Pantalla Liquid Retina, CPU de 10 núcleos, GPU de 10 núcleos, 16 GB de Memoria unificada, 1 TB de SSD, Wi-Fi 7,Teclado español; Azul Cielo"
+      ]
+
+      let numerotextos2 = 0;
+      
+      boton2.addEventListener("click", function() {
+
+        numerofotos2++;
+
+        if (numerofotos2 >= fotos2.length) {
+          numerofotos2 = 0;
+        }
+
+        img2.src = fotos2[numerofotos2];
+
+        let numerotextos2=numerofotos2
+        
+        texto2.innerText = textos2[numerotextos2];
+        
+      });
+
+      boton4.addEventListener("click", function() {
+
+        numerofotos2--;
+
+          if (numerofotos2 < 0) {
+            numerofotos2 = fotos2.length - 1;
+          }
+
+        img2.src = fotos2[numerofotos2];
+
+        let numerotextos2=numerofotos2
+        
+        texto2.innerText = textos2[numerotextos2];
+
+      });
+
+      let boton5 = document.querySelector(".boton5");
+      let boton6 = document.querySelector(".boton6");
+
+      let img3 = document.querySelector(".img3");
+      
+      let fotos3 = [
+        "https://m.media-amazon.com/images/I/51TLvCPumbL._AC_SX679_.jpg",
+
+        "https://m.media-amazon.com/images/I/51hUYDSKfJL._AC_SX679_.jpg",
+        
+        "https://m.media-amazon.com/images/I/51mPV47XtaL._AC_SX679_.jpg"
+
+      ];
+
+      let numerofotos3 = 0;
+      
+      boton5.addEventListener("click", function() {
+
+        numerofotos3++;
+
+        if (numerofotos3 >= fotos3.length) {
+          numerofotos3 = 0;
+        }
+
+        img3.src = fotos3[numerofotos3];
+
+      });
+
+      boton6.addEventListener("click", function() {
+
+        numerofotos3--;
+
+          if (numerofotos3 < 0) {
+            
+            numerofotos3 = fotos3.length - 1;
+            
+          }
+
+        img3.src = fotos3[numerofotos3];
+        
+      });
+      
+      let boton7 = document.querySelector(".boton7");
+      let boton8 = document.querySelector(".boton8");
+
+      let img4 = document.querySelector(".img4");
+      
+      let fotos4 = [
+        "https://m.media-amazon.com/images/I/71qxF1d4CGL._AC_SX569_.jpg",
+
+        "https://m.media-amazon.com/images/I/71Y26D40lxL._AC_SX569_.jpg",
+
+        "https://m.media-amazon.com/images/I/71R96IJHQ6L._AC_SX569_.jpg"
+      ];
+
+      let numerofotos4 = 0;
+
+      boton7.addEventListener("click", function() {
+
+        numerofotos4++;
+
+        if (numerofotos4 >= fotos4.length) {
+          numerofotos4 = 0;
+        }
+
+        img4.src = fotos4[numerofotos4];
+        
+      });
+
+      boton8.addEventListener("click", function() {
+
+        numerofotos4--;
+
+          if (numerofotos4 < 0) {
+            numerofotos4 = fotos4.length - 1;
+          }
+
+        img4.src = fotos4[numerofotos4];
+        
+      });
+      
+    </script>
+  </body>
+</html>
